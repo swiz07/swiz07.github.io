@@ -1,27 +1,19 @@
 body{
-    font-family: Helvetica, Arial,sans-serif;
-    margin: 0px;
-    font-size: 1.4vw;
+    background-color:#F8FAFF;
+    margin: 0;
 }
 
-#logo{
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One";
-    text-shadow: 3px 0 3px black;
-    width:16%;}
-
-ul{
-    margin: 0px;
+#logo>a{
+    text-decoration: none;
+    color: black;
+    font-family: "Protest Guerrilla";
+    letter-spacing: 2px;
 }
 
-body>header{
-    background-color: orange;
-    color:white;
+#container{
     display: flex;
-    height: 13vh;
-    align-items: center;
     justify-content: space-around;
+    background-color: #62a2d6;
 }
 
 #nav-ul{
@@ -29,71 +21,72 @@ body>header{
 }
 
 #nav-ul>li{
-    padding: 8px;
-    margin: 16px;
-}
-
-body>header>nav>ul{
     list-style: none;
-
 }
 
-.navbutton{
+#nav-ul>li>a{
     text-decoration: none;
-    color:white;
-    padding: 16px;
-    border: 1px solid white;
-    border-radius: 10%;
+    padding: 10px;
+    margin: 20px 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: 1px solid #CADBE9;
+    border-radius: 10px;
 }
 
-body>main article{
-    width:70%;
-    margin:auto;
+footer{
+    background-color: #62a2d6;
+    padding:10px;
+    font-size: 19px;
 }
 
 #main-content{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);/*3 equal columns*/
+    gap:20px;
 }
 
-#main-content>div{
-    width:70%;
+.main-news{
+    padding: 10px;
 }
 
-body>footer{
-    background-color: orange;
-    display: flex;
+.main-news>img{
+    display: block;
 }
 
-form{
-    text-align: center;
+.main-news a{
+    color:black;
 }
 
-h2{
-    text-align: center;
+.main-news a:hover{
+    color:red;
 }
 
-body>footer>nav>ul{
-    text-decoration: none;
-    list-style: none;
+input[type=email]{
+    width: 40%;
+    border:none;
+    border-radius: 5px;
+    height: 20px;
 }
 
-img{
-    border-radius: 100%;
+input[type=submit]{
+    display: block;
+    background-color: #F8FAFF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding:10px;
 }
 
-#footer-ul{
-    display: flex;
-    list-style: none;
+#newletter-signup{
+    background-color: #2a6ea78f;
+    padding:10px; 
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
+    font-size: 20px;
 }
-
-#footer-ul>div>li{
-    margin-left: 16px;
-}
-
-#footer-ul>div>li>a{
-    text-decoration: none;
-    color:rgb(255,255,255);
-}
-
 
