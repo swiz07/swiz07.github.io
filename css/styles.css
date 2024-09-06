@@ -94,3 +94,13 @@ input[type=submit]{
     font-size: 20px;
 }
 
+article{
+    margin: auto;
+    width: 60%;
+    padding:10px;
+}
+
+article>header{
+    text-align: center;
+}
+
