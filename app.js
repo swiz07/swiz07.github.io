@@ -1,18 +1,13 @@
-const submit=document.getElementById("submit");
-const onMouseover=(element)=>{
-    element.style.border="1px solid black";
-  }
-  
-  const onMouseout=(element)=>{
-    element.style.border="none";
-  }
+document.addEventListener("DOMContentLoaded", ()=>{
 
-
-  function signUpMessage() {
-    const email = document.getElementById("email");
-    if (email.value !== "") {
-        alert("Thanks for signing in!");
-    } else {
-        alert("Please enter an email.");
+    const images=document.querySelectorAll("img");
+    for(const image of images){
+        fetch("https://dog.ceo/api/breeds/image/random")
+        .then(response=>response.json())
+        .then(data=>{
+            image.src=data.message
+            image.height=100;
+            image.width=100;
+        })
     }
-}
+})
