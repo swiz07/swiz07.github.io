@@ -110,3 +110,18 @@ article>header{
     text-align: center;
 }
 
+
+#about-me{
+    text-align: center;
+}
+
+#about-me img{
+    border-radius: 300px;
+}
+#socials>a{
+    padding:10px;
+    margin: 10px;
+}
+#socials>a>img{
+    height: 50px;
+}
