@@ -137,3 +137,61 @@ article>header{
 #socials>a>img{
     height: 50px;
 }
+
+#dark{
+    padding: 10px;
+    color: black;
+    border: 1px solid #CADBE9;
+    margin: -10px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #62a2d6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#dark:hover{
+    background-color: #2b5d85;
+    color: white;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.myStyle {
+    color: #bb86fc;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 40%);
+}
+
+.dark-mode a {
+    color: #fff;
+}
+
+.dark-mode #logo>a{
+    color:rgba(255, 255, 255, 0.785);
+}
+
+
+.dark-mode #container, .dark-mode footer{
+     background-color: #2b5d85;
+}
+
+.dark-mode #nav-ul > li > a {
+    color: #fff; 
+}
+
+.dark-mode #nav-ul > li > a:hover {
+    background-color: #224b6c;
+}
+
+.dark-mode #dark{
+    background-color: #2b5d85;
+    color:white;
+}
+.dark-mode #dark:hover{
+    background-color: #224b6c;
+    border:1px solid white;
+}
