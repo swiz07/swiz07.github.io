@@ -75,6 +75,10 @@ footer{
     color:red;
 }
 
+.main-news a:visited{
+    color:#652cab;
+}
+
 input[type=email]{
     width: 40%;
     border:none;
@@ -194,4 +198,8 @@ article>header{
 .dark-mode #dark:hover{
     background-color: #224b6c;
     border:1px solid white;
+}
+
+.dark-mode .main-news a:visited{
+    color:#baa2d7; 
 }
